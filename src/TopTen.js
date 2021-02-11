@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import axios from "axios";
 
 class TopTen extends Component {
   constructor(props) {
@@ -45,7 +44,7 @@ class TopTen extends Component {
             return (
               <div>
                 <h4>{item.uid}</h4>
-                <img src={item.images[0].large} />
+                <img src={item.images[0].large} alt="Bad guy" />
               </div>
             );
           })}

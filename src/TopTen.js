@@ -43,8 +43,9 @@ class TopTen extends Component {
           {this.state.data.items.map((item) => {
             return (
               <div>
-                <h4>{item.uid}</h4>
+                <h4>{item.title}</h4>
                 <img src={item.images[0].large} alt="Bad guy" />
+                <hr />
               </div>
             );
           })}

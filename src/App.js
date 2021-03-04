@@ -1,10 +1,11 @@
 import "./App.css";
 import TopTen from "./TopTen";
+import TopTenFn from './TopTenFn';
 
 function App() {
   return (
     <div className="App">
-      <TopTen />
+      <TopTenFn />
     </div>
   );
 }
